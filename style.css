@@ -202,12 +202,15 @@ header.scrolled {
         flex-direction: column;
         gap: 25px;
 
-        transition: transform 0.35s ease;
+        visibility: hidden;
+        transition: transform 0.35s ease, visibility 0s linear 0.35s;
         z-index: 1500;
     }
 
     .nav-links.active {
         transform: translateX(0);
+        visibility: visible;
+        transition: transform 0.35s ease, visibility 0s;
     }
 
 
