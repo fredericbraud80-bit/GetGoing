@@ -187,9 +187,9 @@ header.scrolled {
     .nav-links {
         position: fixed;
         top: 0;
-        right: -260px;
+        right: 0;
         left: auto;
-        transform: none;
+        transform: translateX(100%);
 
         height: 100vh;
         width: 240px;
@@ -202,12 +202,12 @@ header.scrolled {
         flex-direction: column;
         gap: 25px;
 
-        transition: right 0.35s ease;
+        transition: transform 0.35s ease;
         z-index: 1500;
     }
 
     .nav-links.active {
-        right: 0;
+        transform: translateX(0);
     }
 
 
