@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <link rel="icon" type="image/svg+xml" href="icons/logoh.svg">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Going</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Get Going">
+    <meta property="og:description" content="Le rock qui ne s’arrête jamais">
+    <meta property="og:image" content="https://get-going66.github.io/icons/preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://get-going66.github.io/">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Get Going">
+    <meta name="twitter:description" content="Le rock qui ne s’arrête jamais">
+    <meta name="twitter:image" content="https://get-going66.github.io/icons/preview.png">
+</head>
+
+
+
+<div id="preloader">
+  <img class="preloader-logo" src="icons/logoh.svg" alt="">
+</div>
+
+<body>
+
+<!-- ===========================
+        HEADER
+=========================== -->
+<header role="banner">
+    <div class="logo">
+        <img src="icons/logoh.svg" alt="Logo Get Going">
+    </div>
+
+    <nav class="nav-links">
+        <a href="#listen">Écouter</a>
+        <a href="#videos">Clips</a>
+        <a href="#team">L'équipe</a>
+        <a href="#gears">Matériel</a>
+        <a href="#contact">Contacts</a>
+    </nav>
+
+    <div class="burger">
+        <span></span><span></span><span></span>
+    </div>
+</header>
+
+
+<!-- ===========================
+        HERO / CARROUSEL
+=========================== -->
+<section class="hero">
+
+    <div class="slide active">
+        <video autoplay muted loop playsinline preload="metadata">
+            <source src="videos/1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="slide">
+        <video autoplay muted loop playsinline preload="metadata">
+            <source src="videos/2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="slide">
+        <video autoplay muted loop playsinline preload="metadata">
+            <source src="videos/3.mp4" type="video/mp4">
+        </video>
+    </div>
+
+<div class="hero-overlay">
+    <div class="hero-logo-block">
+        <img src="icons/logoh.svg" alt="Get Going" class="hero-logo">
+        <p class="hero-subtitle">Le rock qui ne s’arrête jamais</p>
+    </div>
+</div>
+
+
+</section>
+
+
+<!-- ===========================
+        SECTION ÉCOUTE
+=========================== -->
+<section id="listen" class="listen-section">
+    <h2 class="reveal">Écoutez nous !</h2>
+
+    <!-- ======== LECTEUR AUDIO AVEC PLAYLIST ======== -->
+    <div class="audio-box reveal">
+        <audio id="audio-player" controls></audio>
+
+        <ul class="playlist">
+            <li data-src="audio/01.mp3">01 — Texte</li>
+            <li data-src="audio/02.mp3">02 — Texte</li>
+            <li data-src="audio/03.mp3">03 — Texte</li>
+            <li data-src="audio/04.mp3">04 — Texte</li>
+            <li data-src="audio/05.mp3">05 — Texte</li>
+        </ul>
+    </div>
+
+    <!-- ======== ICÔNES PLATEFORMES ======== -->
+         <p>Retrouvez nous sur votre plateforme de streaming préférée !</p>
+    <div class="platforms">
+        <a href="https://music.apple.com/fr/artist/get-going/1672670492" target="_blank" class="platform-icon apple reveal" style="--delay: 0.1s">
+            <img src="icons/music.apple.svg" alt="Apple Music">
+        </a>
+        <a href="https://open.spotify.com/intl-fr/artist/5PM3TOAngiqnVd2tQcTWcw?si=dpiT-iLUT16XCupdQ889aQ" target="_blank" class="platform-icon spotify reveal" style="--delay: 0.2s">
+            <img src="icons/spotify.svg" alt="Spotify">
+        </a>
+        <a href="https://www.deezer.com/fr/artist/94254392" target="_blank" class="platform-icon deezer reveal" style="--delay: 0.3s">
+            <img src="icons/deezer.svg" alt="Deezer">
+        </a>
+        <a href="https://music.youtube.com/@getgoing.record" target="_blank" class="platform-icon ytmusic reveal" style="--delay: 0.4s">
+            <img src="icons/ytmusic.svg" alt="YouTube Music">
+        </a>
+    </div>
+</section>
+
+
+<!-- ===========================
+        SECTION VIDÉOS
+=========================== -->
+<section id="videos">
+    <h2 class="reveal">Vidéos</h2>
+    <p class="reveal">Nos clips & lives</p>
+
+    <div class="players-grid">
+
+        <div class="player-wrapper video-player reveal">
+            <iframe src="https://www.youtube.com/embed/xTgyYRlWlXU"
+                title="Clip Get Going 1" loading="lazy" allowfullscreen></iframe>
+        </div>
+
+        <div class="player-wrapper video-player reveal" style="--delay: 0.15s">
+            <iframe src="https://www.youtube.com/embed/RzkXprWzBh0"
+                title="Clip Get Going 2" loading="lazy" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div class="more-videos reveal">
+    <a href="https://www.youtube.com/@getgoing.record" target="_blank" class="more-btn">
+        En voir plus !
+    </a>
+</div>
+
+</section>
+
+
+<!-- ===========================
+        SECTION Equipe
+=========================== -->
+<section id="team">
+    <h2 class="reveal">Le Band</h2>
+
+    <div class="team-grid">
+
+        <div class="carte-studio reveal">
+            <figure>
+                <img class="photo" src="img/icons/imgmat.png" alt="Studio d’enregistrement">
+                <p>Jean</p>
+                <figcaption>Chanteur</figcaption>
+            </figure>
+        </div>
+
+        <div class="carte-studio reveal" style="--delay: 0.1s">
+            <figure>
+                <img class="photo" src="https://www.flickr.com/photo_download.gne?id=55292659005&secret=80c9f32720&size=l&source=photoPageEngagement" alt="Studio d’enregistrement">
+                <p>Marie-Annick</p>
+                <figcaption>Basse</figcaption>
+            </figure>
+        </div>
+
+        <div class="carte-studio reveal" style="--delay: 0.2s">
+            <figure>
+                <img class="photo" src="https://www.flickr.com/photo_download.gne?id=55292488139&secret=f53092bf77&size=l&source=photoPageEngagement" alt="Studio d’enregistrement">
+                <p>Daniel</p>
+                <figcaption>Daniel</figcaption>
+            </figure>
+        </div>
+
+        <div class="carte-studio reveal" style="--delay: 0.3s">
+            <figure>
+                <img class="photo" src="img/icons/imgmat.png" alt="Studio d’enregistrement">
+                <p>Michel</p>
+                <figcaption>Guitare</figcaption>
+            </figure>
+        </div>
+
+        <div class="carte-studio reveal" style="--delay: 0.4s">
+            <figure>
+                <img class="photo" src="img/icons/euro.svg" alt="Studio d’enregistrement">
+                <p>Bruno</p>
+                <figcaption>Batterie</figcaption>
+            </figure>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ===========================
+        SECTION GEARS
+=========================== -->
+<section id="gears">
+    <h2 class="reveal">Matériel</h2>
+    <p class="reveal">Notre collection</p>
+    <div class="gears-container">
+    <!-- ========================= -->
+    <!--       CARTE 1 : GUITARES -->
+    <!-- ========================= -->
+    <div class="carte-studio reveal reveal-left">
+        <p>Nos instruments préférés</p>
+
+        <div class="galerie">
+            <img class="photo" 
+                src="https://www.flickr.com/photo_download.gne?id=55292659075&secret=18a1d6a399&size=l&source=photoPageEngagement" 
+                alt="Guitare de Jean">
+
+            <img class="photo" 
+                src="https://www.flickr.com/photo_download.gne?id=55292406093&secret=68747685d8&size=l&source=photoPageEngagement" 
+                alt="Guitare de Jean">
+
+            <img class="photo" 
+                src="https://www.flickr.com/photo_download.gne?id=55292488099&secret=afe401c6a0&size=l&source=photoPageEngagement" 
+                alt="Guitare de Jean">
+
+        </div>
+    </div>
+
+    <!-- ========================= -->
+    <!--   CARTE 2 : PÉDALES/AMPLIS -->
+    <!-- ========================= -->
+    <div class="carte-studio reveal reveal-right" style="--delay: 0.15s">
+    <p>Le Studio</p>
+
+    <div class="galerie">
+
+        <figure>
+            <img class="photo" 
+                src="https://www.flickr.com/photo_download.gne?id=55291344022&secret=0673a39424&size=l&source=photoPageEngagement" 
+                alt="Guitare de Jean">
+            <figcaption>Guitare de Jean</figcaption>
+        </figure>
+
+        <figure>
+            <img class="photo" 
+                src="https://www.flickr.com/photo_download.gne?id=55292488169&secret=f60b9a1e49&size=l&source=photoPageEngagement" 
+                alt="Guitare de Jean">
+            <figcaption>Amplis & Matériel</figcaption>
+        </figure>
+
+        <figure>
+            <img class="photo" src="" alt="">
+            <figcaption>Texte ici</figcaption>
+        </figure>
+
+    </div>
+</div>
+
+</div>
+</section>
+
+
+<section id="contact">
+    <h2 class="reveal">Contact</h2>
+    <p class="reveal">Une question ? Écris-nous.</p>
+
+    <form action="https://formspree.io/f/mbdbaojp" method="POST" class="contact-form reveal reveal-scale">
+        
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+
+
+
+<!-- ===========================
+        FOOTER
+=========================== -->
+<footer>
+    <div class="footer-title">Get Going</div>
+    <div class="footer-subtitle">Groupe • Live</div>
+
+    <div class="footer-links">
+        <a href="#listen">Écouter</a>
+        <a href="#videos">Clips</a>
+        <a href="#team">L'équipe</a>
+        <a href="#gears">Gears</a>
+        <a href="#contact">Contacts</a>
+        <a href="#" id="open-mentions">Mentions légales</a>
+    </div>
+
+    <div class="footer-copy">© 2026 Get Going — Tous droits réservés</div>
+</footer>
+
+
+<!-- ===========================
+        POPUP MENTIONS
+=========================== -->
+
+<div id="mentions-popup" class="hidden">
+    <div class="mentions-content">
+        <h2>Mentions légales</h2>
+
+        <p><strong>Éditeur :</strong><br>
+        Get Going – Jean Parratte<br>
+        Contact : <a href="mailto:getgoing.record@gmail.com">getgoing.record@gmail.com</a></p>
+
+        <p><strong>Hébergement :</strong><br>
+        GitHub, Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, USA<br>
+        Site : github.com</p>
+
+        <p><strong>Propriété intellectuelle :</strong><br>
+        Tous les contenus (textes, images, musiques, vidéos, logo) sont la propriété de Get Going.
+        Toute reproduction est interdite sans autorisation.</p>
+
+        <p><strong>Données personnelles :</strong><br>
+        Les données envoyées via le formulaire de contact ne sont utilisées que pour répondre aux messages
+        et ne sont pas conservées. Pour toute demande : getgoing.record@gmail.com.</p>
+
+        <p><strong>Cookies :</strong><br>
+        Le site n’utilise pas de cookies internes. Les lecteurs intégrés (YouTube, Spotify, Deezer)
+        peuvent déposer leurs propres cookies.</p>
+
+        <p><strong>Responsabilité :</strong><br>
+        Get Going n’est pas responsable des contenus externes accessibles via des liens.</p>
+
+        <button id="close-mentions">Fermer</button>
+    </div>
+</div>
+
+
+<!-- ===========================
+        SCRIPTS
+=========================== -->
+
+<!-- Carrousel -->
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+    });
+}
+
+setInterval(() => {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+}, 8000);
+</script>
+
+<!-- Burger (ANCIEN CODE) -->
+<script>
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.nav-links');
+const header = document.querySelector('header');
+
+burger.addEventListener('click', () => {
+    burger.classList.toggle('active');
+    nav.classList.toggle('active');
+});
+
+// Ferme le menu mobile quand on clique sur un lien
+nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        burger.classList.remove('active');
+        nav.classList.remove('active');
+    });
+});
+
+// Header plus opaque quand on scrolle
+window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+}, { passive: true });
+
+// Souligne dans la nav la section visible
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+const sectionObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            navLinks.forEach(a => a.classList.toggle('current',
+                a.getAttribute('href') === '#' + entry.target.id));
+        }
+    });
+}, { rootMargin: '-40% 0px -55% 0px' });
+
+sections.forEach(s => sectionObserver.observe(s));
+</script>
+
+<!-- Popup -->
+<script>
+const openBtn = document.getElementById('open-mentions');
+const closeBtn = document.getElementById('close-mentions');
+const popup = document.getElementById('mentions-popup');
+
+openBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    popup.classList.remove('hidden');
+});
+
+closeBtn.addEventListener('click', () => {
+    popup.classList.add('hidden');
+});
+</script>
+
+<script>
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+
+  setTimeout(() => {
+    preloader.classList.add("hidden");
+  }, 1000); // durée totale de l'animation
+});
+</script>
+
+
+<div class="lightbox" id="lightbox">
+    <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+document.querySelectorAll('.photo').forEach(img => {
+    img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+    });
+});
+
+lightbox.addEventListener('click', () => {
+    lightbox.classList.remove('active');
+});
+</script>
+
+<script>
+const audio = document.getElementById("audio-player");
+const tracks = document.querySelectorAll(".playlist li");
+
+tracks.forEach(track => {
+    track.addEventListener("click", () => {
+        tracks.forEach(t => t.classList.remove("active"));
+        track.classList.add("active");
+
+        audio.src = track.dataset.src;
+        audio.play();
+    });
+});
+
+// Animations au scroll (reveal) — se relancent à chaque passage
+const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        // visible → on anime ; plus visible → on reset pour la prochaine fois
+        entry.target.classList.toggle('visible', entry.isIntersecting);
+    });
+}, { threshold: 0.15 });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+</script>
+
+
+
+</body>
+</html>
