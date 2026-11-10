@@ -566,6 +566,13 @@ figcaption {
     transform: none;
 }
 
+@media (max-width: 800px) {
+    .reveal-left,
+    .reveal-right {
+        transform: translateY(40px);
+    }
+}
+
 /* Respecte les préférences d'accessibilité */
 @media (prefers-reduced-motion: reduce) {
     .reveal {
@@ -741,6 +748,24 @@ footer a:hover {
     font-size: 14px;
     opacity: 0.6;
     margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 40px 20px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 24px;
+    }
+
+    .footer-links a {
+        margin: 0;
+        white-space: nowrap;
+    }
 }
 
 
